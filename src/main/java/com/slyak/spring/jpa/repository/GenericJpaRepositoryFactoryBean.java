@@ -1,4 +1,4 @@
-package com.slyak.spring.jpa;
+package com.slyak.spring.jpa.repository;
 
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;

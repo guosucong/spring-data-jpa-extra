@@ -1,5 +1,6 @@
-package com.slyak.spring.jpa;
+package com.slyak.spring.jpa.template;
 
+import com.slyak.spring.jpa.SmartTransformer;
 import org.apache.commons.beanutils.BeanUtils;
 import org.apache.commons.beanutils.DynaBean;
 import org.apache.commons.beanutils.DynaProperty;

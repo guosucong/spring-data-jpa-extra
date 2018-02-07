@@ -1,5 +1,7 @@
-package com.slyak.spring.jpa;
+package com.slyak.spring.jpa.repository;
 
+import com.slyak.spring.jpa.EntityAssembler;
+import com.slyak.spring.jpa.template.TemplateQueryLookupStrategy;
 import org.aopalliance.intercept.MethodInterceptor;
 import org.aopalliance.intercept.MethodInvocation;
 import org.springframework.aop.AfterAdvice;
@@ -53,6 +55,9 @@ public class GenericJpaRepositoryFactory extends JpaRepositoryFactory {
 		});
 	}
 
+	/**
+	 * 动态创建查询方法
+	 */
 	@Override
 	protected QueryLookupStrategy getQueryLookupStrategy(QueryLookupStrategy.Key key,
 			EvaluationContextProvider evaluationContextProvider) {

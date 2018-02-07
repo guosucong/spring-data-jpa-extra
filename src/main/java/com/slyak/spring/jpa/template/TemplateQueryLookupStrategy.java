@@ -1,5 +1,6 @@
-package com.slyak.spring.jpa;
+package com.slyak.spring.jpa.template;
 
+import com.slyak.spring.jpa.annotation.TemplateQuery;
 import org.springframework.data.jpa.provider.QueryExtractor;
 import org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy;
 import org.springframework.data.jpa.repository.query.JpaQueryMethod;

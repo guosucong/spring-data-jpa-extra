@@ -1,4 +1,4 @@
-package com.slyak.spring.jpa;
+package com.slyak.spring.jpa.annotation;
 
 import org.springframework.data.annotation.QueryAnnotation;
 

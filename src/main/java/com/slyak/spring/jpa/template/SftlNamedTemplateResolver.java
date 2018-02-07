@@ -1,5 +1,7 @@
-package com.slyak.spring.jpa;
+package com.slyak.spring.jpa.template;
 
+import com.slyak.spring.jpa.NamedTemplateCallback;
+import com.slyak.spring.jpa.NamedTemplateResolver;
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.core.io.Resource;

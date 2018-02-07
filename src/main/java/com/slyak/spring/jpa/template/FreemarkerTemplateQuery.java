@@ -1,5 +1,6 @@
-package com.slyak.spring.jpa;
+package com.slyak.spring.jpa.template;
 
+import com.slyak.spring.jpa.repository.ContextHolder;
 import com.slyak.util.AopTargetUtils;
 import org.hibernate.SQLQuery;
 import org.hibernate.jpa.internal.QueryImpl;

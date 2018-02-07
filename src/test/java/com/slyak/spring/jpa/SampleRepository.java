@@ -1,5 +1,7 @@
 package com.slyak.spring.jpa;
 
+import com.slyak.spring.jpa.annotation.TemplateQuery;
+import com.slyak.spring.jpa.repository.GenericJpaRepository;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.Query;

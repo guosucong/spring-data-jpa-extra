@@ -89,7 +89,7 @@ config with annotation
 
 or with xml
 ```xml
-<jpa:repositories base-package="your.packages" repository-base-class="com.slyak.spring.jpa.GenericJpaRepositoryImpl" repository-factory-bean-class="com.slyak.spring.jpa.GenericJpaRepositoryFactoryBean"/>
+<jpa:repositories base-package="your.packages" repository-base-class="com.slyak.spring.jpa.repository.GenericJpaRepositoryImpl" repository-factory-bean-class="com.slyak.spring.jpa.repository.GenericJpaRepositoryFactoryBean"/>
 ```
 
 ## 2 Miniute Tutorial

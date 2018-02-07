@@ -1,5 +1,8 @@
-package com.slyak.spring.jpa;
+package com.slyak.spring.jpa.template;
 
+import com.slyak.spring.jpa.NamedTemplateCallback;
+import com.slyak.spring.jpa.NamedTemplateResolver;
+import com.slyak.spring.jpa.template.xml.XmlNamedTemplateResolver;
 import freemarker.cache.StringTemplateLoader;
 import freemarker.template.Configuration;
 import org.apache.commons.lang3.StringUtils;

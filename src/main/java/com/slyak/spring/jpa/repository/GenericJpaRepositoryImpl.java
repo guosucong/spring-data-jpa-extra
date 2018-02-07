@@ -1,5 +1,6 @@
-package com.slyak.spring.jpa;
+package com.slyak.spring.jpa.repository;
 
+import com.slyak.spring.jpa.Status;
 import org.springframework.data.jpa.repository.support.JpaEntityInformation;
 import org.springframework.data.jpa.repository.support.SimpleJpaRepository;
 import org.springframework.transaction.annotation.Transactional;

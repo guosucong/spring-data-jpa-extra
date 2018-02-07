@@ -1,4 +1,4 @@
-package com.slyak.spring.jpa;
+package com.slyak.spring.jpa.template;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;

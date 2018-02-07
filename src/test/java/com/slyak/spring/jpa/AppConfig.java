@@ -1,5 +1,8 @@
 package com.slyak.spring.jpa;
 
+import com.slyak.spring.jpa.repository.GenericJpaRepositoryImpl;
+import com.slyak.spring.jpa.template.FreemarkerSqlTemplates;
+import com.slyak.spring.jpa.repository.GenericJpaRepositoryFactoryBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;

@@ -1,5 +1,7 @@
-package com.slyak.spring.jpa;
+package com.slyak.spring.jpa.template.xml;
 
+import com.slyak.spring.jpa.NamedTemplateCallback;
+import com.slyak.spring.jpa.NamedTemplateResolver;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.springframework.beans.factory.xml.DefaultDocumentLoader;
