@@ -1,6 +1,6 @@
 package com.slyak.spring.jpa.converter;
 
-import com.slyak.spring.jpa.GenericJpaRepository;
+import com.slyak.spring.jpa.repository.GenericJpaRepository;
 import com.slyak.spring.jpa.auditing.CachingJpaRepository;
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;

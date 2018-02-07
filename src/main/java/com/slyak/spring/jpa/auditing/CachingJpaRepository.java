@@ -1,6 +1,6 @@
 package com.slyak.spring.jpa.auditing;
 
-import com.slyak.spring.jpa.GenericJpaRepository;
+import com.slyak.spring.jpa.repository.GenericJpaRepository;
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.data.repository.NoRepositoryBean;
